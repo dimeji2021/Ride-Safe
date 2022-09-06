@@ -3,10 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace SafeRide.WebAPI.Domain.Models
 {
-    public class Ride
+    public class Ride : BaseModel
     {
-        [Key]
-        public string RideId { get; set; } 
         public int Rating { get; set; }
         [Required]
         public string PickUpLocation { get; set; }
@@ -16,16 +14,17 @@ namespace SafeRide.WebAPI.Domain.Models
         public double DistanceCovered { get; set; }
         [Required]
         public bool Completed { get; set; }
-        public DateTime CreatedAt { get; set; }
 
-        public Reviews Reviews { get; set; }
+        public Review Reviews { get; set; }
 
         public Payment Payments { get; set; }
 
         public string DriverId { get; set; } 
-        public Drivers? Cars { get; set; }
+        public Driver Driver { get; set; }
 
-        public string CustomersId { get; set; } 
-        public Customer? Customer { get; set; }
+        public string CustomerId { get; set; } 
+        public Customer Customer { get; set; }
+
+        public ICollection<Stop> Stop { get; set; }
     }
 }

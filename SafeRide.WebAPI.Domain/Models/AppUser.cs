@@ -1,24 +1,17 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
+using SafeRide.WebAPI.Domain.Models;
 
 namespace SafeRide.WebAPI.Core.Models
 {
-    public class User
+    public class AppUser : IdentityUser
     {
-        [Key]
-        public string UserId { get; set; } 
         [Required]
         [StringLength(50)]
         public string FirstName { get; set; }
         [Required]
         [StringLength(50)]
         public string LastName { get; set; } 
-        [Required]
-        [StringLength(50)]
-        public string Email { get; set; } 
-        [Required]
-        [DataType(DataType.Password)]
-        public string Password { get; set; }       
-        public string Phonenumber { get; set; } 
         public string FullName {
             get
             {
@@ -26,5 +19,8 @@ namespace SafeRide.WebAPI.Core.Models
             } 
         }
         public bool IsActive { get; set; }
+        public AdminUser AdminUser { get; set; }
+        public Customer Customer { get; set; }
+        public Driver Driver { get; set; }
     }
 }

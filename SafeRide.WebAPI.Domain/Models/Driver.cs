@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace SafeRide.WebAPI.Core.Models
 {
-    public class Drivers : User
+    public class Driver
     {
         [Required]
         [StringLength(100)]
@@ -12,11 +12,15 @@ namespace SafeRide.WebAPI.Core.Models
         [Required]
         public int YearsOfExperience { get; set; }
         public string Avatar { get; set; } 
-        public DateTime CreatedAt { get; set; }
         
-        public ICollection<Car> cars { get; set; }
+        public ICollection<Car> Cars { get; set; }
 
         public ICollection<Ride> Rides { get; set; }
+
+        [Key]
+        public string UserId { get; set; }  
+        public AppUser User { get; set; }
+
 
     }
 }

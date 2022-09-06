@@ -3,20 +3,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace SafeRide.WebAPI.Domain.Models
 {
-    public class Car
+    public class Car : BaseModel
     {
-        [Key]
-        public string CarId { get; set; } 
-        public string Color { get; set; } 
-        public string FeaturedImage { get; set; }
-        [Required]
-        public string CarPlateNumber { get; set; }
+        public string Color { get; set; }
         [Required]
         public string LicenceNumber { get; set; } 
 
         public string DriverId { get; set; } 
-        public Drivers? Driver { get; set; }
-
-        public ICollection<Image> Images { get; set; }  
+        public Driver Driver { get; set; }
     }
 }
