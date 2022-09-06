@@ -2,7 +2,7 @@
 {
     public class Admin : User
     {
-        public string Qaulification { get; set; } = null!;
+        public string Qaulification { get; set; } 
         public DateTime CreatedAt { get; set; }
 
     }

@@ -6,7 +6,7 @@ namespace SafeRide.WebAPI.Domain.Models
     public class Ride
     {
         [Key]
-        public string RideId { get; set; } = string.Empty;
+        public string RideId { get; set; } 
         public int Rating { get; set; }
         [Required]
         public string PickUpLocation { get; set; }
