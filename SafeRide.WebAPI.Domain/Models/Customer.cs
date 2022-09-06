@@ -11,7 +11,5 @@ namespace SafeRide.WebAPI.Domain.Models
         
         public ICollection<Reviews> Reviews { get; set; }
 
-        public string UserId { get; set; }
-        public User User { get; set; }
     }
 }

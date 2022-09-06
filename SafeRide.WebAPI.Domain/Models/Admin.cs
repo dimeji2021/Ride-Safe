@@ -1,11 +1,9 @@
 ﻿namespace SafeRide.WebAPI.Core.Models
 {
-    public class Admin
+    public class Admin : User
     {
-        public string Qaulification { get; set; } 
+        public string Qaulification { get; set; } = null!;
         public DateTime CreatedAt { get; set; }
 
-        public string UserId { get; set; }
-        public User User { get; set; }
     }
 }
