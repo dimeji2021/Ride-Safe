@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Source\\Repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj": {}
+    "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Source\\Repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj": {
+    "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj",
         "projectName": "SafeRide.WebAPI.Domain",
-        "projectPath": "C:\\Users\\hp\\Source\\Repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Source\\Repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\obj\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
