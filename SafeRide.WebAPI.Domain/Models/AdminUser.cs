@@ -6,8 +6,8 @@ namespace SafeRide.WebAPI.Core.Models
     {
         public string Qaulification { get; set; }
         [Key]
-        public string UserId { get; set; }
-        public AppUser User { get; set; }
+        public string AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
 
     }
 }

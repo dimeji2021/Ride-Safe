@@ -11,8 +11,8 @@ namespace SafeRide.WebAPI.Domain.Models
         public ICollection<Review> Reviews { get; set; }
 
         [Key]
-        public string UserId { get; set; }
-        public AppUser User { get; set; }
+        public string AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
 
     }
 }

@@ -25,6 +25,6 @@ namespace SafeRide.WebAPI.Domain.Models
         public string CustomerId { get; set; } 
         public Customer Customer { get; set; }
 
-        public ICollection<Stop> Stop { get; set; }
+        public ICollection<Stop> Stops { get; set; }
     }
 }
