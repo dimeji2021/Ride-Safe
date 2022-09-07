@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\SafeRide\\SafeRide.WebAPI\\SafeRide.WebAPI\\SafeRide.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\week-9-task-pod-d\\SafeRide.WebAPI\\SafeRide.WebAPI.csproj",
       "projectName": "SafeRide.WebAPI",
-      "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\SafeRide\\SafeRide.WebAPI\\SafeRide.WebAPI\\SafeRide.WebAPI.csproj",
+      "projectPath": "C:\\Users\\hp\\Source\\Repos\\week-9-task-pod-d\\SafeRide.WebAPI\\SafeRide.WebAPI.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\SafeRide\\SafeRide.WebAPI\\SafeRide.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Source\\Repos\\week-9-task-pod-d\\SafeRide.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -269,7 +269,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

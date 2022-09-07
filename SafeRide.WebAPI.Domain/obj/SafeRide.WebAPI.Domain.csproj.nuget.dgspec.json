@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\OneDrive\\Desktop\\SafeRide\\SafeRide.WebAPI\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj": {}
+    "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\OneDrive\\Desktop\\SafeRide\\SafeRide.WebAPI\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj": {
+    "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\SafeRide\\SafeRide.WebAPI\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj",
         "projectName": "SafeRide.WebAPI.Domain",
-        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\SafeRide\\SafeRide.WebAPI\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\SafeRide.WebAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\SafeRide\\SafeRide.WebAPI\\SafeRide.WebAPI.Domain\\obj\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

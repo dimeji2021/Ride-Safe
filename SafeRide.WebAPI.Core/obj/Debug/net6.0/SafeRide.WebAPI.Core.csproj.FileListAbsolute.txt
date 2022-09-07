@@ -1,0 +1,12 @@
+C:\Users\hp\Source\Repos\week-9-task-pod-d\SafeRide.WebAPI.Core\bin\Debug\net6.0\SafeRide.WebAPI.Core.deps.json
+C:\Users\hp\Source\Repos\week-9-task-pod-d\SafeRide.WebAPI.Core\bin\Debug\net6.0\SafeRide.WebAPI.Core.dll
+C:\Users\hp\Source\Repos\week-9-task-pod-d\SafeRide.WebAPI.Core\bin\Debug\net6.0\SafeRide.WebAPI.Core.pdb
+C:\Users\hp\Source\Repos\week-9-task-pod-d\SafeRide.WebAPI.Core\obj\Debug\net6.0\SafeRide.WebAPI.Core.csproj.AssemblyReference.cache
+C:\Users\hp\Source\Repos\week-9-task-pod-d\SafeRide.WebAPI.Core\obj\Debug\net6.0\SafeRide.WebAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Source\Repos\week-9-task-pod-d\SafeRide.WebAPI.Core\obj\Debug\net6.0\SafeRide.WebAPI.Core.AssemblyInfoInputs.cache
+C:\Users\hp\Source\Repos\week-9-task-pod-d\SafeRide.WebAPI.Core\obj\Debug\net6.0\SafeRide.WebAPI.Core.AssemblyInfo.cs
+C:\Users\hp\Source\Repos\week-9-task-pod-d\SafeRide.WebAPI.Core\obj\Debug\net6.0\SafeRide.WebAPI.Core.csproj.CoreCompileInputs.cache
+C:\Users\hp\Source\Repos\week-9-task-pod-d\SafeRide.WebAPI.Core\obj\Debug\net6.0\SafeRide.WebAPI.Core.dll
+C:\Users\hp\Source\Repos\week-9-task-pod-d\SafeRide.WebAPI.Core\obj\Debug\net6.0\refint\SafeRide.WebAPI.Core.dll
+C:\Users\hp\Source\Repos\week-9-task-pod-d\SafeRide.WebAPI.Core\obj\Debug\net6.0\SafeRide.WebAPI.Core.pdb
+C:\Users\hp\Source\Repos\week-9-task-pod-d\SafeRide.WebAPI.Core\obj\Debug\net6.0\ref\SafeRide.WebAPI.Core.dll

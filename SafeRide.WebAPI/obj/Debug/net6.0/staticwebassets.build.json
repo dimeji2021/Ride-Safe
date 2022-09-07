@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zXLaBez2VKRBmL6weweGqbxE/wKfRm+V4wAICTw7skE=",
+  "Source": "SafeRide.WebAPI",
+  "BasePath": "_content/SafeRide.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
