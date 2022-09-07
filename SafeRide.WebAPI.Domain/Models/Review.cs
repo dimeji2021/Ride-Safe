@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using SafeRide.WebAPI.Core.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace SafeRide.WebAPI.Domain.Models
 {
@@ -7,11 +8,11 @@ namespace SafeRide.WebAPI.Domain.Models
         [Required]
         public string Content { get; set; }
 
-        public string RideId { get; set; }
-        public Ride Ride { get; set; }
+        public string BookingId { get; set; }
+        public Booking Booking { get; set; }
 
-        public string CustomerId { get; set; }
-        public Customer Customer { get; set; }
+        public string AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
 
     }
 }
