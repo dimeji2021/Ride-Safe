@@ -12,8 +12,8 @@ using SafeRide.WebAPI.Infrastructure.DataBase;
 namespace SafeRide.WebAPI.Infrastructure.Migrations
 {
     [DbContext(typeof(SafeRideContext))]
-    [Migration("20220907201140_intialDb")]
-    partial class intialDb
+    [Migration("20220908085529_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -267,11 +267,8 @@ namespace SafeRide.WebAPI.Infrastructure.Migrations
 
             modelBuilder.Entity("SafeRide.WebAPI.Domain.Models.AppRating", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("AppUserId")
                         .IsRequired()

@@ -1,0 +1,84 @@
+[
+    {
+        "Id": "e29844c5-10eb-44a5-a0a9-b982b1cdec9b",
+        "Ratings": 4,
+        "AppUserId": "a29833c5-10eb-44a5-a0a9-b920b1cdec9b",
+        "AppUser": {
+            "FirstName": "Micheal",
+            "LastName": "Jordan",
+            "IsActive": true,
+            "IsAdmin": true,
+            "Gender": "Male",
+            "Address": "7 Asajon way sangotedo ajah",
+            "Avatar": "default.jpg"
+        },
+        "Driver": {
+            "YearsOfExperience": 3,
+            "DriverLicense": "D13477963",
+            "Cars": [
+                {
+                    "Id": "m29844c5-10eb-44a5-a0a9-b962b1cdec9b",
+                    "CreatedAt": "2019-09-02",
+                    "UpdatedAt": "2022-10-03",
+                    "Color": "brown",
+                    "LicenceNumber": "A13477583",
+                    "DriverId": "v29844c5-10eb-44a5-a0a9-b912b1cded3a",
+                    "Driver": {}
+                }
+            ],
+            "Bookings": [
+                {
+                    "Id": "d29893c5-10eb-44a5-a0a9-b922b1cdec9c",
+                    "CreatedAt": "2015-09-01",
+                    "UpdatedAt": "2017-10-04",
+                    "PickUpLocation": "Shoprite sangotedo",
+                    "Destination": "Osapa london",
+                    "Payment": 2500,
+                    "DistanceCovered": 52,
+                    "Completed": true,
+                    "Reviews": {
+                        "Id": "d29893c5-10eb-08a8-a0a9-b922b1cdec9l",
+                        "CreatedAt": "2013-09-01",
+                        "UpdatedAt": "2021-10-04",
+                        "Content": "Satisfactory",
+                        "BookingId": "e39844c5-10eb-44a5-b0b6-b922b1cdec3c",
+                        "Booking": {},
+                        "AppUserId": "d12345c5-10eb-44a5-a0a9-b922b1cdec9c",
+                        "AppUser": {}
+
+                    },
+                    "Payments": {
+                        "Id": "a49893c5-10eb-08a8-a0a9-b922b1cdev4x",
+                        "CreatedAt": "2013-09-01",
+                        "UpdatedAt": "2021-10-04",
+                        "Amount": 3500,
+                        "PaymentType": "Transfer",
+                        "BookingId": "a29395c5-10eb-33p1-a0a9-b213b1cded3p",
+                        "Booking":  {}
+                    },
+                    "DriverId" :"a29814c5-10eb-44a5-a0a9-b213b1cded3p",
+                    "Driver": {},
+                    "AppUserId": "a29802c5-10eb-63a5-a0a9-b922b1cdec9b",
+                    "AppUser": {},
+                    "Stops": {
+                        "Id": "e29844c5-10eb-76a5-a0a9-b939b1cdec3c",
+                        "Location": "Oshodi Lagos",
+                        "BookingId": "e29888c5-35eb-44a5-a0a9-b939b1cdec3c",
+                        "Booking": {},
+                        "StopIndex": 4
+                    }
+                }
+            ],
+            "AppUserId": "e29833c5-10eb-44a5-a0a9-b919b1cdec9b",
+            "AppUser": {}
+        },
+        //"Ratings": [
+        //    {
+
+        //    }
+        //],
+        "Reviews": [ {} ],
+        "Bookings": [ {} ],
+        "FullName": "Micheal Jordan"
+    }
+]

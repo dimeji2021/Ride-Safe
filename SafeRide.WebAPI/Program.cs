@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using SafeRide.WebAPI.Infrastructure;
 using SafeRide.WebAPI.Infrastructure.DataBase;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+var scope = app.Services.CreateScope();
+var dbContext = scope.ServiceProvider.GetRequiredService<SafeRideContext>();
+SafeRideSeeder.SeedData(dbContext);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
