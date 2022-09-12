@@ -1,7 +1,7 @@
 ﻿using SafeRide.WebAPI.Domain.Models;
 using System.ComponentModel.DataAnnotations;
 
-namespace SafeRide.WebAPI.Core.Models
+namespace SafeRide.WebAPI.Domain.Models
 {
     public class Driver
     {      

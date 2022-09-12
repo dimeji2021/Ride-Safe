@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using SafeRide.WebAPI.Domain.Models;
 
-namespace SafeRide.WebAPI.Core.Models
+namespace SafeRide.WebAPI.Domain.Models
 {
     public class AppUser : IdentityUser
     {

@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using SafeRide.WebAPI.Core.Models;
 using SafeRide.WebAPI.Domain.Models;
 
 namespace SafeRide.WebAPI.Infrastructure.DataBase

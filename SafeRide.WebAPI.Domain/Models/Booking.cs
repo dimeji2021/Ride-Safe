@@ -1,6 +1,4 @@
-﻿using SafeRide.WebAPI.Core.Models;
-
-namespace SafeRide.WebAPI.Domain.Models
+﻿namespace SafeRide.WebAPI.Domain.Models
 {
     public class Booking : BaseModel
     {

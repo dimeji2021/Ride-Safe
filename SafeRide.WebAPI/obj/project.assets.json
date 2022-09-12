@@ -765,6 +765,19 @@
           }
         }
       },
+      "SafeRide.WebAPI.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SafeRide.WebAPI.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SafeRide.WebAPI.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SafeRide.WebAPI.Core.dll": {}
+        }
+      },
       "SafeRide.WebAPI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -784,6 +797,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
           "Newtonsoft.Json": "13.0.1",
+          "SafeRide.WebAPI.Core": "1.0.0",
           "SafeRide.WebAPI.Domain": "1.0.0"
         },
         "compile": {
@@ -2232,6 +2246,11 @@
         "version.txt"
       ]
     },
+    "SafeRide.WebAPI.Core/1.0.0": {
+      "type": "project",
+      "path": "../SafeRide.WebAPI.Core/SafeRide.WebAPI.Core.csproj",
+      "msbuildProject": "../SafeRide.WebAPI.Core/SafeRide.WebAPI.Core.csproj"
+    },
     "SafeRide.WebAPI.Domain/1.0.0": {
       "type": "project",
       "path": "../SafeRide.WebAPI.Domain/SafeRide.WebAPI.Domain.csproj",
@@ -2251,19 +2270,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Decagon\\.nuget\\packages\\": {}
+    "C:\\Users\\hp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Decagon\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI\\SafeRide.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI\\SafeRide.WebAPI.csproj",
       "projectName": "SafeRide.WebAPI",
-      "projectPath": "C:\\Users\\Decagon\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI\\SafeRide.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\Decagon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Decagon\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI\\SafeRide.WebAPI.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Decagon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2277,8 +2296,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Decagon\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI.Infrastructure\\SafeRide.WebAPI.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Decagon\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI.Infrastructure\\SafeRide.WebAPI.Infrastructure.csproj"
+            "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI.Infrastructure\\SafeRide.WebAPI.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\hp\\source\\repos\\week-9-task-pod-d\\SafeRide.WebAPI.Infrastructure\\SafeRide.WebAPI.Infrastructure.csproj"
             }
           }
         }
@@ -2322,7 +2341,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

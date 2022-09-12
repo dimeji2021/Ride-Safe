@@ -1,7 +1,4 @@
-﻿using SafeRide.WebAPI.Core.Models;
-using System.ComponentModel.DataAnnotations;
-
-namespace SafeRide.WebAPI.Domain.Models
+﻿namespace SafeRide.WebAPI.Domain.Models
 {
     public class Car : BaseModel
     {
