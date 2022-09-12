@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SafeRide.WebAPI.Domain\SafeRide.WebAPI.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

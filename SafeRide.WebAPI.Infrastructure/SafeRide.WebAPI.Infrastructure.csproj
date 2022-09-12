@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SafeRide.WebAPI.Core\SafeRide.WebAPI.Core.csproj" />
     <ProjectReference Include="..\SafeRide.WebAPI.Domain\SafeRide.WebAPI.Domain.csproj" />
   </ItemGroup>
 
